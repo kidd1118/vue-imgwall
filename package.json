@@ -1,11 +1,13 @@
 {
   "name": "vue-imgwall",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "./dist/helloWorld.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name helloWorld ./src/components/HelloWorld.vue"
   },
   "dependencies": {
     "core-js": "^3.6.5",
