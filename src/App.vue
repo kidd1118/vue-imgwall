@@ -1,5 +1,5 @@
 <template>
-  <img-wall msg="Welcome to Your Vue.js App"/>
+  <ImgWall />
 </template>
 
 <script>
